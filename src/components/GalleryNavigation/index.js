@@ -9,7 +9,7 @@ function GalleryNavigation({galleries}) {
             <br></br>
             { galleries.map((gallery) => (
                 <span>
-                    <NavLink exact to={`/gallery/${gallery.id}`}> {gallery.name} </NavLink>
+                    <NavLink exact to={`/galleries/${gallery.id}`}> {gallery.name} </NavLink>
                     <br></br>
                 </span>
         ))}
